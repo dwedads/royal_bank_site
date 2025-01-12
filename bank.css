@@ -1,0 +1,38 @@
+html {
+    --main_color: #8b00ff;
+    --background: #fffaf0;
+    --text-color: #2f2f2f;
+    background-color: var(--main_color);
+    color:var(--text-color);
+}
+.card {
+    width: 500px;
+    height: 500px;
+    background-color:aquamarine;
+    display:flex;
+    border-radius: 10px;
+}
+
+.card_text > p {
+    display: flex;
+    flex-direction: line;
+    letter-spacing: 15px;
+}
+
+.card_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    border-radius: 10px;
+    background-color: var(--background);
+    width: 350px;
+    height:100px;
+    display:flex;
+    text-align: center;
+}
+
+.login:hover {
+    color: green;
+}
